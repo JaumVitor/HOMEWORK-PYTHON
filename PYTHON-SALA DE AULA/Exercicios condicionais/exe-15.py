@@ -1,0 +1,6 @@
+num1 = float ( input ('Numero para iniciar as operações ? ')) 
+num2 = float ( input ('Segundo número ? ')) 
+print ('Número {:.0f}+{:.0f} = {:.0f}'.format(num1, num2, num1+num2))
+print ('Número {:.0f}-{:.0f} = {:.0f}'.format(num1, num2, num1-num2))
+print ('Número {:.0f}÷{:.0f} = {:.2f}'.format(num1, num2, num1/num2))
+print ('Número {:.0f}×{:.0f} = {}'.format(num1, num2, num1*num2)) 
