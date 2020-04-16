@@ -1,0 +1,5 @@
+print ('-' * 50)
+valor1 = float ( input ('Digite valor inicial R$'))
+print ('-' * 50)
+valor2 = (valor1 * 0.95)
+print ('Valor com desconto de 5% >>> R$ {:.2f}'.format(valor2))

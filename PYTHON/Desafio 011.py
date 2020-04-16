@@ -1,0 +1,7 @@
+l = float ( input ('Digite a largura da parede : '))
+h = float ( input ( 'Digite a altura de uma parede: '))
+print ('-'*30)
+area = (l * h)
+litro = (area / 2)
+print ('Área da parede ? {}x{}m >>> {:.2f}m²'.format( l,h,area ))
+print ('litros necessários para pintar a parede ? {:.2f} litros'.format(litro))
